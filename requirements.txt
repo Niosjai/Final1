@@ -1,0 +1,6 @@
+Flask
+gunicorn
+pyTelegramBotAPI==4.9.2
+requests==2.31.0
+msal==1.23.0
+pyshorteners==1.0.1
