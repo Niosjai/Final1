@@ -52,7 +52,7 @@ def load_token_from_file():
 # Authenticate the user with Microsoft Graph using device code flow
 def authenticate_user(user_id):
     # Include the offline_access scope to allow for token refresh
-    flow = msal_app.initiate_device_flow(scopes=["Files.ReadWrite.All", "offline_access"])
+    flow = msal_app.initiate_device_flow(scopes=["Files.ReadWrite.All"])
 
     if 'user_code' not in flow:
         raise ValueError("Failed to create device flow. Check app permissions.")
