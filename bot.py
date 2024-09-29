@@ -336,6 +336,6 @@ def log_file_link(user_id, username, file_name):
         log_file.write(log_message)
 
 # Start the bot
-if __name__ == "__main__":
-print("Bot is running...")
+if __name__ == "__main__"
+    print("Bot is running...")
     bot.polling()
