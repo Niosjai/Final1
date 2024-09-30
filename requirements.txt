@@ -6,3 +6,5 @@ msal
 pyshorteners
 python-dotenv
 pytz
+telegraph
+functools
