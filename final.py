@@ -687,6 +687,6 @@ def send_debug_file(message):
 
 if __name__ == "__main__":
     try:
-        bot.polling()
+        bot.infinity_polling()
     except Exception as e:
         logging.critical(f"Bot polling failed: {e}")
